@@ -311,15 +311,19 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     display: inline-block;
     border: 2px solid;
     margin-left: 20px;
-    border-radius: 8px;
+    border-radius: 50%;
     width: 30px;
     height: 30px;
     line-height: 28px;
     text-align: center;
 }
+.about-list-icon ul li :hover{
+    color: #ffffff93;
+}
 .about-list-icon ul li a i {
     margin-left: 6px;
 }
+
 /*.ab-list-icon */
 
 /*.single-about-img */
@@ -655,7 +659,14 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .isotope-overlay a {
     display: inline-block;
     color: #fff;
-    font-size: 14px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.isotope-overlay a :hover{
+    display: inline-block;
+    color: #ffffff9e;
+    font-size: 3rem;
     text-align: center;
 }
 .isotope .item:hover .isotope-overlay{
