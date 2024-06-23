@@ -190,7 +190,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     align-items: center;
     justify-content: center;
     position:relative;
-    background:url(../images/about/welcome-banner.jpg)no-repeat;
+    background:url(../images/about/bg.jpg)no-repeat;
     background-size:cover;
     background-position: center;
     height:890px;
@@ -282,8 +282,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     background: rgba(31,44,108,.3);
 }
 .single-about-img img {
-    max-width: 500px;
-    height: 468px;
+    /* max-width: 500px; */
+    /* height: 468px; */
 }
 .about-list-icon{
     display: flex;
@@ -659,14 +659,14 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .isotope-overlay a {
     display: inline-block;
     color: #fff;
-    font-size: 3rem;
+    font-size: 5rem;
     text-align: center;
 }
 
 .isotope-overlay a :hover{
     display: inline-block;
     color: #ffffff9e;
-    font-size: 3rem;
+    font-size: 5rem;
     text-align: center;
 }
 .isotope .item:hover .isotope-overlay{
